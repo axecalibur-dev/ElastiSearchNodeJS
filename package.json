@@ -4,11 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "supervisor node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "elasticsearch": "^16.7.2",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "supervisor": "^0.12.0"
   }
 }
